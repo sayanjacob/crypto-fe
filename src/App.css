@@ -1,0 +1,46 @@
+/* App.css */
+/* background-color: #1F1B24; */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');.content {
+  background-color: #121212;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  min-height: 100vh;
+  min-width: 100%;
+  color: #ffffff;
+}
+.coinAll {
+  background-color: #212121;
+  border-radius: 10px;
+  width: 100%;
+}
+.table {
+  width: 90%;
+}
+th,
+td {
+
+  background-color: #212121 !important;
+  color: white !important;
+  border: none;
+  box-shadow: none;
+}
+th{
+  font-weight: 700 !important;
+  border-bottom: 1px solid rgb(47, 47, 47);
+}
+td{
+  font-weight: 300!important;
+}
+/* Bootstrap classes for button styling */
+
+.navbar-brand {
+  color: green;
+  font-weight: 600;
+}
+.navbar-brand:hover {
+  color: rgb(2, 110, 2);
+  font-weight: 600;
+}
